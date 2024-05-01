@@ -43,13 +43,13 @@ export const Room = () => {
          <img src={require('./images/google meet.png')} alt="" />
        </div>
        <div className='meet ps-2'>
-        <p className='fs-4'>Meet</p>
+        <p>Meet</p>
        </div>
       </div>
 
       <div className='header-right d-flex'>
       <div className='date'>
-        <p className='fs-5'>{formattimezero(formattime(currenttime.getHours()))}:{formattimezero(currenttime.getMinutes())} . {formatdate(currenttime)}</p>
+        <p>{formattimezero(formattime(currenttime.getHours()))}:{formattimezero(currenttime.getMinutes())} . {formatdate(currenttime)}</p>
       </div>
 
       <div className='support ps-4'>
@@ -64,7 +64,7 @@ export const Room = () => {
        <i class="bi bi-gear"></i>
       </div>
 
-      <div className='apps ps-5'>
+      <div className='apps'>
        <i class="bi bi-three-dots-vertical"></i>
       </div>
 
@@ -77,9 +77,9 @@ export const Room = () => {
 
       <div className='container center-content'>
       <div className='row'>
-          <div className='col-lg-6 d-flex align-items-center'>
+          <div className='col-lg-6 d-flex align-items-center order-2 order-lg-1'>
           <div className='left-content'>
-        <div>
+        <div className='heading'>
           <h1>Video Calls and meetings for everyone</h1>
         </div>
 
@@ -110,15 +110,15 @@ export const Room = () => {
         </form>
         </div>
 
-        <div className='pt-4'>
+        <div className='learn pt-4'>
           <p><span className='text-primary'>Learn more</span> about Google Meet</p>
         </div>
         </div>
           </div>
 
-          <div className='col-lg-6'>
+          <div className='col-lg-6 order-1 order-lg-2'>
           <div className='right-content'>
-        <div className='d-flex'>
+        <div className='d-flex linkimage'>
           <div className='left-arrow pe-5'>
            <i class="bi bi-chevron-left"></i>
           </div>
@@ -132,11 +132,11 @@ export const Room = () => {
           </div>
         </div>
 
-        <div className='pt-5 text-center'>
+        <div className='pt-5 text-center getlink'>
           <h5 className='fs-4'>Get a link that you can share</h5>
         </div>
 
-        <div className='pt-3 text-center'>
+        <div className='pt-3 text-center click'>
           <p>Click <span className='fw-bold'>New meeting</span> to get a link that you can send to people that you want to meet with</p>
         </div>
         </div>

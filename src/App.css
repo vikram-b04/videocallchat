@@ -8,6 +8,16 @@
 .meet,.date p{
     color: #616368;
 }
+
+.meet p{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.date p{
+    font-size: 20px;
+    padding-top: 2px;
+}
 .profilepic img{
     width: 40px;
     height: 40px;
@@ -28,6 +38,10 @@
     color: #525252;
 }
 
+.apps{
+    padding-left: 50px;
+
+}
 .videocall-join{
     border-bottom: 1px solid #d9dbdd;
 
@@ -111,4 +125,114 @@
 .join{
     padding-left: 20px;
     padding-top: 10px;
+}
+
+@media screen and (max-width:500px) {
+    .right-content{
+        padding-left: 0px;
+    }
+    
+    .linkimage{
+        padding-left: 10px;
+    }
+
+    .image-1 img{
+        width: 250px;
+    }
+
+    .heading h1{
+        font-size: 24px;
+    }
+    
+    .p p{
+        font-size: 14px;
+        width: 420px;
+        text-align: center;
+    }
+
+    .learn {
+        padding-left: 90px;
+    }
+
+    .video{
+        padding: 8px;
+    }
+
+    .video-icon{
+        font-size: 16px;
+    }
+
+    .meeting{
+        font-size: 14px;
+    }
+
+    .keyboard{
+        font-size: 14px;
+    }
+
+    .codebox{
+        font-size: 14px;
+    }
+
+    .entercode{
+        margin-left: 15px;
+    }
+
+    .join button {
+        font-size: 14px;
+    }
+
+    .join{
+        padding-left: 10px;
+        padding-top: 8px;
+    }
+
+    .googlemeetpic img{
+        width: 100px;
+        padding-top: 1px;
+    }
+
+    .meet p{
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .date p{
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .support,.report,.settings{
+        display: none;
+    }
+
+    .apps{
+        padding-left: 10px;
+    }
+
+    .apps i{
+        font-size: 20px;
+    }
+
+    .profilepic img{
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        border-bottom-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        margin-top: 5px;
+    }
+
+    .center-content{
+        padding-top: 40px;
+    }
+
+    .left-content{
+        padding-top: 40px;
+    }
+
+
+
 }
