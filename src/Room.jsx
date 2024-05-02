@@ -69,7 +69,7 @@ export const Room = () => {
       </div>
 
       <div className='profilepic ps-4'>
-          <img src={require('./images/profilepic.jpg')} alt="" />
+          <img src={require('./images/profilepic.png')} alt="" />
       </div>
       </div>
         </div>      
