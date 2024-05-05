@@ -97,7 +97,7 @@ export const Room = () => {
 
             <div className='entercode'>
              <i class="bi bi-keyboard keyboard"></i>
-             <input className='codebox' type='number' placeholder='Enter the a code ' value={roomid} onChange={(event)=>setRoomid(event.target.value)}></input>
+             <input className='codebox' type='number' placeholder='Enter the code ' value={roomid} onChange={(event)=>setRoomid(event.target.value)}></input>
             </div>
 
             <div className='join'>
