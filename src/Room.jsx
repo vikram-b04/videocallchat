@@ -77,7 +77,7 @@ export const Room = () => {
 
       <div className='container center-content'>
       <div className='row'>
-          <div className='col-lg-6 d-flex align-items-center order-2 order-lg-1'>
+          <div className='col-lg-6 d-flex align-items-center'>
           <div className='left-content'>
         <div className='heading'>
           <h1>Video Calls and meetings for everyone</h1>
@@ -116,7 +116,7 @@ export const Room = () => {
         </div>
           </div>
 
-          <div className='col-lg-6 order-1 order-lg-2'>
+          <div className='col-lg-6'>
           <div className='right-content'>
         <div className='d-flex linkimage'>
           <div className='left-arrow pe-5'>
